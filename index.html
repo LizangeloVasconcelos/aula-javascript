@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Javascript</title>
+</head>
+<body>
+    <script>
+        // console.log("Hello Woeld");
+        // console.log(3)
+        // let nome = "Enzo";
+        // let idade = 23;
+        // idade + idade+1;
+        // console.log(idade)
+        // console.log(0.1+0.2);
+        // console.log(0.1-0.2);
+        // console.log(4/2);
+        // console.log(3*7);
+        // console.log(3**7);
+        // console.log(10%3);
+
+        // console.log(3==="3");
+        // console.log(!(3==="3"));
+
+        // console.log(5 > 6 || 3 > 4);
+        // console.log(5 > 6 && 3 > 4);
+
+
+        // let numero1 = prompt("digite o primeiro numero para somar: ")
+        // console.log(numero1)
+        // let numero2 = prompt("digite o segundo numero para somar: ")
+        // console.log(numero2)
+        // let resultado = Number(numero1) + Number(numero2)
+        // console.log(resultado)
+
+        // let nome;
+        // nome = "teste"
+        // console.log(nome);
+        // alert(nome)
+
+        // let idade;
+        // idade = prompt("Qual a sua idade?")
+        // if (idade >= 18){
+        //     alert("Você já pode ser preso")
+        // }
+        // else{
+        //     alert("Você ainda não pode ser preso")
+        // }
+
+        // let primerionumero
+        // let segundonumero
+        // primerionumero = prompt("Digite o primeiro numero")
+        // primerionumero = prompt("Digite o primeiro segundo")
+        // if(primerionumero&segundonumero == 0){
+        //     alert("O Primeiro numero é divisivel pelo segundo")
+        // } else {
+        //     alert("O Primeiro numero nao é divisivel pelo segundo")
+        // }
+
+        //let nota1 = prompt("digite a primeira nota: ")
+        //console.log(nota1)
+        //let nota2 = prompt("digite a segunda nota: ")
+        //console.log(nota2)
+        //let nota3 = prompt("digite a terceira nota: ")
+        //console.log(nota3)
+        //let resultado = Number(nota1) + Number(nota2)+ Number(nota3)
+        //resultadofinal = resultado / 3
+        //console.log(resultadofinal)
+        
+        //if (resultadofinal >= 6){
+        //    alert("voce foi aprovado sua nota final foi " + resultadofinal+ "sua primeira nota foi" +nota1+ "sua segunda nota foi"+nota2+"sua terceira nota foi"+nota3)
+        //}
+        //else if(resultado <= 6){
+        //    alert("voce foi reprovado " + resultado + "Suas notas foram " +nota1+ "segunda "+nota2+"terceira "+nota3)
+        //}
+
+        const numeroNotas = prompt("Quais notas vc deseja informar");
+        let total = 0;
+
+        for (let i = 1; i<=numeroNotas; i++) {
+            let numero = prompt(`Informe as notas ${i}`);
+            numero = parseInt(numero);
+            console.log("numero", numero); 
+            total = total + numero;
+
+        const media = total/numeroNotas;
+        
+        console.log("Média: ", media);
+        }
+        
+        alert("A média das notas é: " );
+        
+
+        
+
+
+
+    </script>
+</body>
+</html>
